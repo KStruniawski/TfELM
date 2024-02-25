@@ -19,7 +19,7 @@ This framework provides a comprehensive set of tools and utilities for implement
 Extreme Learning Machines (ELMs) represent a class of feedforward neural networks initially proposed by Huang et al. in 2006. Traditional neural networks typically involve iterative optimization methods to learn both input weights and hidden layer biases, leading to computationally intensive training processes. In contrast, ELMs revolutionize this paradigm by adopting a simplified approach where input weights and biases are randomly initialized, and only the output weights are learned through a single linear regression. This architectural choice not only drastically reduces training time but also alleviates computational complexity, rendering ELMs highly efficient for tackling large-scale problems.
 
 ### Basic Extreme Learning Machine concept
-![ELM Framework Logo](elm.png)
+![ELM Framework Logo](https://github.com/KStruniawski/TfELM/blob/main/elm.png)
 Let's denote the input data matrix as $`X`$ 
 of size $`N \times M`$, where $`N`$ represents the 
 number of samples and $`M`$ denotes the number of features. 
@@ -121,7 +121,7 @@ Furthermore, the framework facilitates model persistence by enabling users to sa
 For all the mentioned methods, there is support for saving and loading mechanisms using HDF5 format. Additionally, they are compatible with cross_val_score, providing both predict and predict_proba functionalities for ROC/AUC curve calculations. Each algorithm runs on TensorFlow, ensuring efficient computation and compatibility with various computing environments.
 
 ## Documentation
-[Documentation](https://tfelm.readthedocs.io/index.html) is available at the provided link.
+[Documentation](https://tfelm.readthedocs.io/index.html](https://kstruniawski.github.io/TfELM/) is available at the provided link.
 
 ## Installation
 
