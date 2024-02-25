@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['identity_0',['identity',['../class_activation_function_1_1_activation_function.html#a660cbc3e647c19c3cf616d95f365142b',1,'ActivationFunction::ActivationFunction']]],
+  ['implementations_20and_20the_20need_20for_20a_20comprehensive_20framework_1',['Scarcity of ELM Implementations and the Need for a Comprehensive Framework',['../md__r_e_a_d_m_e.html#autotoc_md5',1,'']]],
+  ['implemented_20variants_20of_20extreme_20learning_20machines_2',['Implemented Variants of Extreme Learning Machines',['../md__r_e_a_d_m_e.html#autotoc_md8',1,'']]],
+  ['imq_3',['imq',['../class_activation_function_1_1_activation_function.html#a3ef62ad002b9052bbce4b1a1051f3dfd',1,'ActivationFunction::ActivationFunction']]],
+  ['imrbf_4',['imrbf',['../class_activation_function_1_1_activation_function.html#a8c009f020b53598a4ac2cb200598d73c',1,'ActivationFunction::ActivationFunction']]],
+  ['installation_5',['Installation',['../md__r_e_a_d_m_e.html#autotoc_md10',1,'']]],
+  ['introduction_6',['Introduction',['../md__r_e_a_d_m_e.html#autotoc_md2',1,'']]],
+  ['inv_5fcosine_7',['inv_cosine',['../class_activation_function_1_1_activation_function.html#a353763300702c39a4087cb200bc69919',1,'ActivationFunction::ActivationFunction']]],
+  ['inv_5fcubic_8',['inv_cubic',['../class_activation_function_1_1_activation_function.html#ab9fa176960865e19af2cfb4bc6ce1623',1,'ActivationFunction::ActivationFunction']]],
+  ['inv_5flogit_9',['inv_logit',['../class_activation_function_1_1_activation_function.html#ad6d3bde9eb9adf0f805d08e44bcc852e',1,'ActivationFunction::ActivationFunction']]],
+  ['inv_5fmultiquadratic_10',['inv_multiquadratic',['../class_activation_function_1_1_activation_function.html#a505eb585f9a2036a220ec3d172c878e3',1,'ActivationFunction::ActivationFunction']]],
+  ['inv_5fquadratic_11',['inv_quadratic',['../class_activation_function_1_1_activation_function.html#ad734c635dc194c3bb53af4efa392ebad',1,'ActivationFunction::ActivationFunction']]],
+  ['inv_5fsine_12',['inv_sine',['../class_activation_function_1_1_activation_function.html#a5d66d630b0c6c3d9ff5f67f5f3ad9cca',1,'ActivationFunction::ActivationFunction']]],
+  ['inverse_13',['inverse',['../class_activation_function_1_1_activation_function.html#accb96af56e1146ab4e2461c99c925749',1,'ActivationFunction::ActivationFunction']]],
+  ['inverse_5fcosine_14',['inverse_cosine',['../class_activation_function_1_1_activation_function.html#a4fd5e6ceff00520929c5f1b3a5cbb726',1,'ActivationFunction::ActivationFunction']]],
+  ['inverse_5fsine_15',['inverse_sine',['../class_activation_function_1_1_activation_function.html#ac75dfe02137274c7e8c74efae0923e42',1,'ActivationFunction::ActivationFunction']]],
+  ['inverse_5ftangent_16',['inverse_tangent',['../class_activation_function_1_1_activation_function.html#ab0369e352a784d7ffc0b497d0e73aea1',1,'ActivationFunction::ActivationFunction']]],
+  ['inverse_5ftanh_17',['inverse_tanh',['../class_activation_function_1_1_activation_function.html#ab92e309d93eec47f39be5ab9591727af',1,'ActivationFunction::ActivationFunction']]],
+  ['invgamma_18',['invgamma',['../class_activation_function_1_1_activation_function.html#aa84ec555fbb3557507b40fafb95fbb89',1,'ActivationFunction::ActivationFunction']]],
+  ['invsqrt_19',['invsqrt',['../class_activation_function_1_1_activation_function.html#afdc7bc658238cabe8a726c0dd4c4a55a',1,'ActivationFunction::ActivationFunction']]],
+  ['isq_20',['isq',['../class_activation_function_1_1_activation_function.html#a66532aec052d9223dc74afc779354596',1,'ActivationFunction::ActivationFunction']]],
+  ['isrlu_21',['isrlu',['../class_activation_function_1_1_activation_function.html#a08aee7d0ddd726652d3fcd07b0c08929',1,'ActivationFunction::ActivationFunction']]],
+  ['isru_22',['isru',['../class_activation_function_1_1_activation_function.html#a4aca34badaf157484687c7bc594260fb',1,'ActivationFunction::ActivationFunction']]],
+  ['istaelmoptimizer_23',['ISTAELMOptimizer',['../class_i_s_t_a_e_l_m_optimizer_1_1_i_s_t_a_e_l_m_optimizer.html',1,'ISTAELMOptimizer']]]
+];
