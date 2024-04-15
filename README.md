@@ -121,14 +121,14 @@ Furthermore, the framework facilitates model persistence by enabling users to sa
 For all the mentioned methods, there is support for saving and loading mechanisms using HDF5 format. Additionally, they are compatible with cross_val_score, providing both predict and predict_proba functionalities for ROC/AUC curve calculations. Each algorithm runs on TensorFlow, ensuring efficient computation and compatibility with various computing environments.
 
 ## Documentation
-[Documentation](https://tfelm.readthedocs.io/index.html](https://kstruniawski.github.io/TfELM/) is available at the provided link.
+[Documentation](https://kstruniawski.github.io/TfELM/) is available at the provided link.
 
 ## Installation
 
 To install the ELM Framework, simply clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/elm-framework.git
+git clone https://github.com/KStruniawski/TfELM.git
 ```
 Then, navigate to the cloned directory and install the required dependencies using pip:
 ```bash
