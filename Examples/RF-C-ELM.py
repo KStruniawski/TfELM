@@ -14,7 +14,8 @@ num_neurons = 1000
 n_splits = 10
 n_repeats = 10
 
-# Loading sample dataset from Data folder
+# Load the MNIST dataset (please download MNIST dataset seperately)
+# Not added to the repository due to the size of MNIST dataset
 path = "../Data/mnist_train.txt"
 df = pd.read_csv(path, delimiter=',').fillna(0)
 X = df.values[:, 1:]

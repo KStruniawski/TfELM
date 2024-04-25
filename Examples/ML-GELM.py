@@ -23,7 +23,7 @@ X = preprocessing.normalize(X)
 observations, features = X.shape
 
 # Initialize Multilayer ELM model
-model = ML_ELMModel(verbose=1, classification=False)
+model = ML_ELMModel(verbose=0, classification=False)
 
 # Add ELM autoencoder layers for unsupervised learning and feature extraction
 model.add(GELM_AE_Layer(number_neurons=100))

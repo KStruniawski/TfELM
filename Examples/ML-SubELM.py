@@ -24,7 +24,7 @@ y = label_encoder.fit_transform(y)  # Encode class labels to numerical values
 X = preprocessing.normalize(X)  # Normalize feature vectors
 
 # Initialize a Multilayer Extreme Learning Machine model
-model = ML_ELMModel(verbose=1)
+model = ML_ELMModel(verbose=0)
 
 # Add KELM layers to the Multilayer Extreme Learning Machine
 model.add(SubELMLayer(1000, 200, 70, 'mish'))

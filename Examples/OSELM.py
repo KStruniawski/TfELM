@@ -9,10 +9,11 @@ from Layers.OSELMLayer import OSELMLayer
 from Models.OSELMModel import OSELMModel
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+# (optional) To disable GPU
+# os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
-path = "../Data/mnist_train.txt"
-df = pd.read_csv(path, delimiter=',').fillna(0)
+path = "../Data/ionosphere.txt"
+df = pd.read_csv(path, delimiter='\t').fillna(0)
 X = df.values[:, 1:]
 y = df.values[:, 0]
 

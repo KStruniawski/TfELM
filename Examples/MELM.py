@@ -14,8 +14,8 @@ n_splits = 10
 n_repeats = 10
 
 # Loading sample dataset from Data folder
-path = "../Data/mnist_train.txt"
-df = pd.read_csv(path, delimiter=',').fillna(0)
+path = "../Data/ionosphere.txt"
+df = pd.read_csv(path, delimiter='\t').fillna(0)
 X = df.values[:, 1:]
 y = df.values[:, 0]
 

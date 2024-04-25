@@ -26,7 +26,7 @@ X = preprocessing.normalize(X)  # Normalize feature vectors
 kernel = CombinedProductKernel([Kernel("rational_quadratic"), Kernel("exponential")])
 
 # Initialize a Multilayer Extreme Learning Machine model
-model = ML_ELMModel(verbose=1)
+model = ML_ELMModel(verbose=0)
 
 # Add KELM layers to the Multilayer Extreme Learning Machine
 model.add(KELMLayer(kernel=kernel))

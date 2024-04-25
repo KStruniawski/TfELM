@@ -2,12 +2,13 @@ import h5py
 import numpy as np
 import tensorflow as tf
 from keras.utils import to_categorical
+from sklearn.base import BaseEstimator, ClassifierMixin
 from sklearn.utils.multiclass import unique_labels
 
 from Layers.SSKELMLayer import SSKELMLayer
 
 
-class SSKELMModel:
+class SSKELMModel(BaseEstimator, ClassifierMixin):
     """
         Semi-Supervised Kernel Extreme Learning Machine (SSKELM) model.
 

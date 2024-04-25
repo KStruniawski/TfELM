@@ -131,7 +131,10 @@ class MELMModel(BaseEstimator, ClassifierMixin):
             >>> model.fit(X, y)
         """
         if len(y.shape) == 1:
+            self.classes_ = tf.unique(y)
             y = to_categorical(y)
+        else:
+            self.classes_ = tf.unique(tf.argmax(y, axis=1))
 
         if self.verbose == 1:
             pbar = tqdm.tqdm(total=len(self.layers), desc=' RC-ELM : Baseline layer step ')

@@ -19,7 +19,8 @@ filter_size = 4
 num_input_channels = 1
 pool_size = 3
 
-# Load the MNIST dataset
+# Load the MNIST dataset (please download MNIST dataset seperately)
+# Not added to the repository due to the size of MNIST dataset
 path = "../Data/mnist_train.txt"
 df = pd.read_csv(path, delimiter=',').fillna(0)
 X = df.values[:, 1:]
