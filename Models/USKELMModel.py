@@ -148,7 +148,7 @@ class USKELMModel:
             >>> pred = model.predict(X)
         """
         pred = self.layer.predict(X, clustering, k)
-        return pred
+        return pred.numpy()
 
     def save(self, file_path):
         """
