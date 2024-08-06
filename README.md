@@ -211,6 +211,26 @@ python ELM.py
 ## Sample datasets
 This repository utilizes sample datasets sourced from the UCI Machine Learning Repository.
 
+## Cite
+This software has been shared as a software publication in SoftwareX https://doi.org/10.1016/j.softx.2024.101833, if you are using this tool for your research please cite it as:
+```bash
+@article{Struniawski2024TfELM,
+	journal = {SoftwareX},
+	doi = {10.1016/j.softx.2024.101833},
+	issn = {2352-7110},
+	language = {en},
+	publisher = {Elsevier BV},
+	title = {TfELM: Extreme Learning Machines framework with Python and TensorFlow},
+	url = {http://dx.doi.org/10.1016/j.softx.2024.101833},
+	volume = {27},
+	author = {Struniawski, Karol and Kozera, Ryszard},
+	pages = {101833},
+	date = {2024-09},
+	year = {2024},
+	month = {9},
+}
+```
+
 ## License
 Shield: [![CC BY-NC 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
