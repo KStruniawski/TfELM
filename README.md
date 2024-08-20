@@ -124,8 +124,15 @@ For all the mentioned methods, there is support for saving and loading mechanism
 [Documentation](https://kstruniawski.github.io/TfELM/) is available at the provided link.
 
 ## Installation
+### PyPI
+To install the ELM Framework using PyPI, simply enter:
 
-To install the ELM Framework, simply clone this repository to your local machine:
+```bash
+pip install TfELM
+```
+
+### Git
+To install the ELM Framework using this git repository, clone it to your local machine:
 
 ```bash
 git clone https://github.com/KStruniawski/TfELM.git
